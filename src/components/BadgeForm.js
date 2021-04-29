@@ -16,12 +16,12 @@ class BadgeForm extends React.Component{
     };
 
     handleClick = e => {
-        console.log("Button was clicked");
+        console.log("Button was clicked.");
     };
 
     handleSubmit = e => {
         e.preventDefault();
-        console.log("Form was submited");
+        console.log("Form was submited.");
         console.log(this.state);
     };
 
